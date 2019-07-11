@@ -1,0 +1,55 @@
+/*titulo principa.*/
+h1 { 
+color:  #736e6c; 
+font-size: 130px;
+font-weight: normal; 
+line-height: 48px; 
+margin: 0 0 50px; 
+text-align: left; 
+text-shadow: 1px 1px 2px black; 
+}
+
+/*subtitulos*/
+h3 {
+color: #736e6c; 
+font-size: 22px;
+font-weight: bold; 
+line-height: 32px; 
+margin: 0 0 24px; 
+text-shadow: 1px 1px 1px black; 
+}
+
+
+/*faz a caixa de texto ficar com a borda laranja quando esta a ser usada*/
+input[type=text]:focus {
+    border: 3px solid orange;
+}
+
+/*muda estilo, cor do fundo dos titulos da tabela e cor da letra dos titulos*/
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: orange;
+    color: white;
+}
+
+/*muda estilo das borders*/
+table td, table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+/*faz linha sim linha não ficarem com cores difrentes*/
+table tr:nth-child(even){
+background-color: #f2f2f2;
+}
+
+/*faz highlight quando o cursor passa numa linha da tabela*/
+table td:hover {
+background-color: orange;
+}
+
+
+
+
